@@ -26,3 +26,12 @@ var moment = require('moment');
 require('moment/locale/cs');
 console.log(moment.locale()); // cs
 ```
+
+
+```javascript
+// to include all the locales
+var moment = require('moment');
+require('moment/min/locales.min');
+moment.locale('cs');
+console.log(moment.locale()); // cs
+```
